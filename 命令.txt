@@ -1,0 +1,10 @@
+1.命令
+上帝模式：c_godmode()
+获得物品：c_give("", n)
+传送：c_teleport(,,)
+
+for k, v in pairs(Ents) do 
+    if v.prefab == "dragonflyfurnace" then 
+        v:Remove() 
+    end 
+end
